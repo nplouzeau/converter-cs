@@ -23,6 +23,6 @@ public class Tests
     public void Test1(double d)
     {
         Assert.That(_converter!.ConvertFeetInMeters(_converter.ConvertMetersInFeet(d)),
-            Is.EqualTo(d));
+            Is.EqualTo(d).Within(1.0e-10));
     }
 }

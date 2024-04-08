@@ -1,7 +1,6 @@
-﻿using System;
-namespace Converter
+﻿namespace Converter
 {
-	public class Converter : IConverter
+    public class Converter : IConverter
 	{
         const double feetInMeters = 0.33;
 
